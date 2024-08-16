@@ -284,7 +284,7 @@
     }
 
     .navbar-light .navbar-brand img {
-        max-height: 45px;
+        max-height: 110px;
     }
 }
 
@@ -431,7 +431,6 @@
 .header-carousel .header-carousel-item .carousel-caption .carousel-caption-content {
     position: relative;
     width: 75%;
-    
 }
 /*** Carousel Hero Header End ***/
 
@@ -530,12 +529,39 @@
 
 /*** Service End ***/
 
+/* .about-img */
+@keyframes hoverEffect {
+    from {
+      transform: scale(1);
+      opacity: 1;
+    }
+    to {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+  }
+  
+  /* Apply the animation on hover */
+  .about-img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .about-img:hover {
+    animation: hoverEffect 0.3s forwards;
+  }
+
+  
 /*** About Start ***/
 .about .about-img {
     position: relative;
     overflow: hidden;
     height: 100%;
     border-radius: 10px;
+   
+}
+/* Background image for about */
+.bg-about{
+    background-image: linear-gradient(rgba(34, 30, 30, 0.973), rgba(61, 52, 52, 0.9)), url('../img/about-sec-2.jpeg');
 }
 
 .about .about-img .about-img-inner {
@@ -561,6 +587,24 @@
 }
 
 /*** About End ***/
+
+/* bg image for service */
+.bg-service{
+    background-image: linear-gradient(rgba(37, 35, 35, 0.973), rgba(61, 52, 52, 0.9)), url('../img/service-back.webp');
+}
+
+/* Bg for contact section */
+.bg-contact{
+    background-image: linear-gradient(rgba(43, 39, 39, 0.973), rgba(61, 52, 52, 0.9)), url('../img/contact-back.png');
+}
+
+
+/* THis is for bg-blog section */
+.bg-blog{
+    background-image: linear-gradient(rgba(43, 39, 39, 0.973), rgba(61, 52, 52, 0.9)), url('../img/blog-back.webp');
+}
+
+
 
 /*** Feature Start ***/
 .feature .feature-item {
@@ -798,7 +842,7 @@
 
 /*** testimonial Start ***/
 .testimonial {
-    background: linear-gradient(rgba(21, 185, 217, 0.9), rgba(21, 185, 217, 0.9)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(21, 185, 217, 0.9), rgba(21, 185, 217, 0.9)), url(../img/);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1176,3 +1220,9 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+
+/* Form me */
+.animate-img{
+    background-color: red;
+}

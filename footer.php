@@ -13,11 +13,11 @@
               <div class="col-md-6 col-lg-6 col-xl-2">
                   <div class="footer-item d-flex flex-column">
                       <h4 class="mb-4 text-white">Quick Links</h4>
-                      <a href=""><i class="fas fa-angle-right me-2"></i> About Us</a>
-                      <a href=""><i class="fas fa-angle-right me-2"></i> Contact Us</a>
-                      <a href=""><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
-                      <a href=""><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
-                      <a href=""><i class="fas fa-angle-right me-2"></i> Our Blog & News</a>
+                      <a href="about.php"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                      <a href="contact.php"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                      <a href="testimonial.php"><i class="fas fa-angle-right me-2"></i> Testimonial</a>
+                      <a href="service.php"><i class="fas fa-angle-right me-2"></i>Services</a>
+                      <a href="blog.php"><i class="fas fa-angle-right me-2"></i> Our Blog & News</a>
                   </div>
               </div>
               <div class="col-md-6 col-lg-6 col-xl-4">
@@ -26,8 +26,7 @@
                       <a href=""><i class="fa fa-map-marker-alt me-2"></i>No 383/11B AMUDHAM STREET,PERIYAR NAGAR SOUTH</a>
                       <a href=""><i class="fas fa-envelope me-2"></i>sathyackpc@gmail.com</a>
                       <a href=""><i class="fas fa-envelope me-2"></i>velvizhienterprise@gmail.com</a>
-                      <a href=""><i class="fas fa-phone me-2"></i> +91 9345593781</a>
-                      <a href="" class="mb-3"><i class="fas fa-print me-2"></i>+91 6382413835</a>
+                      <a href=""><i class="fas fa-phone me-2"></i> +91 9345593781 | 6382413835</a>
                   </div>
               </div>
               <div class="col-md-6 col-lg-6 col-xl-3">
@@ -40,6 +39,9 @@
                           <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
                           <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
                       </div>
+                      <div class="col-md-6 text-center text-md-end text-white py-4">
+                          <span><img src="./img/logo.webp" alt="" height="60px" width="230px"></span>
+                      </div>
                   </div>
               </div>
           </div>
@@ -51,21 +53,15 @@
   <div class="container-fluid copyright py-4">
       <div class="container">
           <div class="row g-4 align-items-center">
-              <div class="col-md-6 text-center text-md-start mb-md-0">
-                  <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>VIZHI ENTERPRISES</a>, All right reserved.</span>
+              <div class="col-md-12 text-center text-md-start mb-md-0">
+                  <p class="text-white text-center"><a href="#"><i class="fas fa-copyright text-light me-2 "></i>VIZHI ENTERPRISES</a>, All right reserved.</p>
+                  <p class="text-center">Designed By :<a class="border-bottom" href="https://web2export.com/"> Web2Export </p></a>
               </div>
-              <div class="col-md-6 text-center text-md-end text-white">
-               
-                  Designed By :<a class="border-bottom" href="https://web2export.com/"> Web2Export </a><span><img src="./img/logo.webp" alt="" height="60px" width="150px"></span>
-              </div>
+
           </div>
       </div>
   </div>
   <!-- Copyright End -->
-
-  <!-- Back to Top -->
-  <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
-
 
   <!-- JavaScript Libraries -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -74,8 +70,6 @@
   <script src="lib/easing/easing.min.js"></script>
   <script src="lib/waypoints/waypoints.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-
   <!-- Template Javascript -->
   <script src="lib/js/main.js"></script>
 
