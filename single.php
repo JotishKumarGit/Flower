@@ -64,7 +64,7 @@ $pro_id = $_GET['pro_id'];
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-5 wow fadeInLeft back" data-wow-delay="0.2s">
                             <div class="about-img " style="height: 500px; width: 100%;">
-                                <img src="<?php echo $row['pro_image'] ?>" class="img-fluid rounded" alt="Image" style="height: 450px; width: 100%; object-fit :cover; border: 1px solid #15b9d9">
+                                <img src="./admin/<?php echo $row['pro_image'] ?>" class="img-fluid rounded" alt="Image" style="height: 450px; width: 100%; object-fit :cover; border: 1px solid #15b9d9">
                             </div>
                         </div>
                         <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">

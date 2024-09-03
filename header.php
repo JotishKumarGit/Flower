@@ -33,7 +33,7 @@
  <!-- Navbar & Hero Start -->
  <div class="container-fluid position-relative p-0">
      <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
-         <a href="index.html" class="navbar-brand  "  >
+         <a href="index.php" class="navbar-brand  "  >
          <img src="img/vizhi-logo.jpeg" alt="logo" style="" height="110px" width="100px">
          </a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -68,7 +68,5 @@
              <!-- <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Book Appointment</a> -->
          </div>
      </nav>
-
-
  </div>
  <!-- Navbar & Hero End -->

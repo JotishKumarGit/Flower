@@ -93,6 +93,8 @@
     </div>
     <!-- About End -->
 
+
+    
     <!-- Product Start -->
     <div class="container-fluid service ">
         <div class="container py-5">
@@ -119,7 +121,7 @@
                         <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="service-item rounded">
                                 <div class="service-img rounded-top">
-                                    <img src="<?php echo $row['pro_image'] ?>" style="object-fit: cover; border: 1px solid #15b9d9;" height="250px" width="100%" class=" rounded-top w-100" alt="">
+                                    <img src="./admin/<?php echo $row['pro_image'] ?>" style="object-fit: cover; border: 1px solid #15b9d9;" height="250px" width="100%" class=" rounded-top w-100" alt="">
                                 </div>
                                 <div class="service-content rounded-bottom bg-light p-4">
                                     <br>
